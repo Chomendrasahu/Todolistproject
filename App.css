@@ -1,0 +1,74 @@
+.todo-container {
+  max-width: 500px;
+  margin: 50px 50px 50px 50px;
+  padding: 60px;
+  background-image: linear-gradient(rgb(49, 49, 154),lightblue);
+  border: 15px solid rgb(13, 4, 67);
+
+}
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2017/01/08/21/11/wood-1963988_960_720.jpg);
+  opacity: 0.9 ;
+}
+form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.bigblue {
+  color: blue;
+  text-shadow: 2px black;
+  padding: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 40px;
+  background-color: skyblue;
+  font-style: inherit;
+  border-radius: 10px;
+}
+input[type="text"] {
+  flex: 2;
+  padding: 15px;
+  font-size: 14px;
+  border-radius: 7px;
+  border: 1px ridge solid rgb(217, 106, 106);
+  border-color: black;
+  margin-right: 20px;
+  background-color: rgb(242, 233, 221);
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: rgb(25, 65, 139);
+  color: white;
+  border: ridge;
+  border-radius: 10px;
+  border-color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  list-style-type: circle;
+}
+
+button {
+  margin-left: auto;
+  background-color: tomato;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: ridge;
+  border-color: black;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+  
+}
